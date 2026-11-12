@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+build/
+
+# production
+*.log
+dev.log
+server.log
+
+# environment
+.env
+.env.local
+.env*.local
+
+# database (local sqlite + test messages)
+db/*.db
+db/*.db-journal
+
+# private uploads / originals (not part of the portfolio)
+upload/
+skills/
+tests/
+download/
+
+# misc
+.DS_Store
+*.pem
+check-msg.ts
+.idea/
+.vscode/
